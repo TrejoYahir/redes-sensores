@@ -31,7 +31,7 @@ def start_smtp_sensor():
     ip = input("Escribe la direccion ip del destino: ")
     dominio = input("Escribe el dominio: ")
     puerto = input("Escribe el puerto del dominio: ")
-    sbj = "Comprobando el envío de correo localmente"
-    txt = "Si puedes leer esto, tu servidor local SMTP está OK"
+    sbj = "yahir@mail.redes.com equipo 10 grupo 4CM3"
+    txt = "Gabriel Alejandro Huitrón Rizo Yahir, Trejo Granados, Francisco Reyes Valente"
     send_mail_local(from_host, usuario, ip, dominio, puerto, sbj, txt)
     print("Comprueba el correo en tu buzón local")
